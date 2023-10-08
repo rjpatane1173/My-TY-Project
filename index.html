@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Racing Game</title>
+    <style>
+        /* Style the canvas */
+        canvas {
+            background-color: lightblue;
+            display: block;
+            margin: 0 auto;
+            border: 2px solid black; /* Add a border for visibility */
+        }
+
+        /* Style the game controls */
+        .game-controls {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="game-canvas" width="800" height="600"></canvas>
+
+    <div class="game-controls">
+        <button id="move-left">Move Left</button>
+        <button id="move-right">Move Right</button>
+    </div>
+
+    <script src="client.js"></script>
+
+    <!-- Add this HTML code at the bottom of your index.html file, just before the closing </body> tag -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Enter Your Name</h2>
+        <input type="text" id="playerName" placeholder="Your Name">
+        <button id="hostRoom">Host the Room</button>
+        <button id="joinRoom">Join the Room</button>
+    </div>
+</div>
+
+
+</body>
+</html>
